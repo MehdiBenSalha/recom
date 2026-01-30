@@ -12,7 +12,7 @@ total_successes = []
 
 for run in range(n_runs):
     patient = Patient()
-    team = MedicalTeam(n_treatments=10, screen_trials=3, retest_trials=7, fallback_top_k=3)
+    team = MedicalTeam(n_treatments=10, screen_trials=3, retest_trials=5, fallback_top_k=3)
 
     successes = 0
     curve = []
